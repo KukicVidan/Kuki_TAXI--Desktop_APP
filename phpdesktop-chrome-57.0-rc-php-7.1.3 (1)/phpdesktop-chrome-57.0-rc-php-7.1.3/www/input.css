@@ -22,7 +22,8 @@ form {
 label {
   display: block;
   margin-bottom: 10px;
-  font-size: larger;
+  font-size: 30px;
+  color: white;
 }
 input[type="text"],
 input[type="date"] {
@@ -32,6 +33,7 @@ input[type="date"] {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  font-size: larger;
 }
 input[type="submit"] {
   background-color: #336677;

@@ -1181,3 +1181,690 @@
 - 14:44:48.828 DEBUG: OnBrowserDestroyed()
 - 14:44:48.047 INFO: Ended application
 - 14:44:48.047 INFO: --------------------------------------------------------
+- 15:04:12.000 INFO: --------------------------------------------------------
+- 15:04:12.000 INFO: Started application
+- 15:04:12.000 INFO: Logging to: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 15:04:12.000 INFO: Log level = DEBUG4
+- 15:04:12.000 INFO: Starting Mongoose 3.9c web server
+- 15:04:12.000 INFO: WWW directory: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 15:04:12.000 INFO: Index files: input_form.php,index.html,index.php
+- 15:04:12.000 INFO: CGI interpreter: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 15:04:12.000 INFO: CGI pattern: **.php$
+- 15:04:12.000 INFO: Hide files patterns: 
+- 15:04:12.000 INFO: CGI environment variables set: TMP=C:\Users\38766\AppData\Local\Temp\,TEMP=C:\Users\38766\AppData\Local\Temp\,TMPDIR=C:\Users\38766\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:04:12.000 INFO: Web server url: http://127.0.0.1:63274/
+- 15:04:12.000 INFO: remote_debugging_port = 54326
+- 15:04:12.000 DEBUG: Command line string for the browser process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=54326
+- 15:04:12.031 DEBUG: App::OnContextInitialized()
+- 15:04:12.031 DEBUG: Window max width/height = 2480/1352
+- 15:04:12.031 DEBUG: GetBrowserWindow(): not found, hwnd = 132582
+- 15:04:12.031 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:04:12.031 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:04:12.031 DEBUG: StoreBrowserWindow(): hwnd = 132582
+- 15:04:12.000 DEBUG: Command line string for the gpu-process process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x2504 --gpu-driver-vendor=NVIDIA --gpu-driver-version=31.0.15.5244 --gpu-driver-date=5-7-2024 --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=FDB5B6D4FD89523F0F6CE6C3EED0A1B2 --mojo-platform-channel-handle=1816 /prefetch:2
+- 15:04:12.078 DEBUG: ClientHandler::OnAfterCreated()
+- 15:04:12.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:04:12.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:04:12.015 DEBUG: Command line string for the renderer process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=660C86C77A5EE93315E3CA2320B4B7AE --lang=en-US --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=660C86C77A5EE93315E3CA2320B4B7AE --renderer-client-id=3 --mojo-platform-channel-handle=2364 /prefetch:1
+- 15:04:12.031 DEBUG: OnBrowserCreated()
+[0510/150412.397:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:04:13.219 INFO: GET 200 /input.css
+- 15:04:13.219 INFO: GET 200 /
+- 15:04:13.266 INFO: GET 200 /background.jpg
+- 15:04:13.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63274/
+- 15:04:15.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63274/
+- 15:04:15.125 INFO: GET 200 /rezultati.css
+- 15:04:15.141 INFO: GET 200 /rezultati_page.php
+- 15:04:15.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63274/rezultati_page.php
+- 15:04:18.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63274/rezultati_page.php
+- 15:04:18.797 INFO: GET 200 /input_form.php
+- 15:04:18.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63274/input_form.php
+- 15:04:28.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63274/input_form.php
+- 15:04:28.953 INFO: POST 200 /submit_form.php
+- 15:04:28.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63274/submit_form.php
+- 15:04:38.078 DEBUG: WM_DESTROY
+- 15:04:38.078 DEBUG: RemoveBrowserWindow(): hwnd = 132582
+- 15:04:38.078 INFO: Stopping Mongoose web server
+- 15:04:38.078 DEBUG: Mongoose webserver stopped immediately
+- 15:04:38.078 DEBUG: OnBeforeClose() hwnd=132576
+- 15:04:38.078 DEBUG: RemoveBrowserWindow(): hwnd = 132576
+- 15:04:38.078 DEBUG: GetBrowserWindow(): not found, hwnd = 132576
+- 15:04:38.078 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:04:38.078 DEBUG: Calling CefQuitMessageLoop()
+- 15:04:38.000 DEBUG: OnBrowserDestroyed()
+- 15:04:38.109 INFO: Ended application
+- 15:04:38.109 INFO: --------------------------------------------------------
+- 15:04:45.000 INFO: --------------------------------------------------------
+- 15:04:45.000 INFO: Started application
+- 15:04:45.000 INFO: Logging to: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 15:04:45.000 INFO: Log level = DEBUG4
+- 15:04:45.000 INFO: Starting Mongoose 3.9c web server
+- 15:04:45.000 INFO: WWW directory: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 15:04:45.000 INFO: Index files: input_form.php,index.html,index.php
+- 15:04:45.000 INFO: CGI interpreter: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 15:04:45.000 INFO: CGI pattern: **.php$
+- 15:04:45.000 INFO: Hide files patterns: 
+- 15:04:45.000 INFO: CGI environment variables set: TMP=C:\Users\38766\AppData\Local\Temp\,TEMP=C:\Users\38766\AppData\Local\Temp\,TMPDIR=C:\Users\38766\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:04:45.000 INFO: Web server url: http://127.0.0.1:63282/
+- 15:04:45.000 INFO: remote_debugging_port = 49484
+- 15:04:45.000 DEBUG: Command line string for the browser process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=49484
+- 15:04:45.031 DEBUG: App::OnContextInitialized()
+- 15:04:45.031 DEBUG: Window max width/height = 2480/1352
+- 15:04:45.031 DEBUG: GetBrowserWindow(): not found, hwnd = 918738
+- 15:04:45.031 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:04:45.031 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:04:45.031 DEBUG: StoreBrowserWindow(): hwnd = 918738
+- 15:04:45.000 DEBUG: Command line string for the gpu-process process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x2504 --gpu-driver-vendor=NVIDIA --gpu-driver-version=31.0.15.5244 --gpu-driver-date=5-7-2024 --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=6D6C6AD95441AF95577E39D70D67D8E8 --mojo-platform-channel-handle=1812 /prefetch:2
+- 15:04:45.078 DEBUG: ClientHandler::OnAfterCreated()
+- 15:04:45.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:04:45.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:04:45.000 DEBUG: Command line string for the renderer process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=9440EF0D8BE70C38B9BE5CE8D6BEF38D --lang=en-US --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=9440EF0D8BE70C38B9BE5CE8D6BEF38D --renderer-client-id=3 --mojo-platform-channel-handle=2356 /prefetch:1
+- 15:04:45.016 DEBUG: OnBrowserCreated()
+[0510/150445.523:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:04:46.187 INFO: GET 200 /input.css
+- 15:04:46.187 INFO: GET 200 /
+- 15:04:46.250 INFO: GET 200 /background.jpg
+- 15:04:46.265 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63282/
+- 15:04:47.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63282/
+- 15:04:47.109 INFO: GET 200 /rezultati.css
+- 15:04:47.109 INFO: GET 200 /rezultati_page.php
+- 15:04:47.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63282/rezultati_page.php
+- 15:04:51.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63282/rezultati_page.php
+- 15:04:51.109 INFO: GET 200 /input_form.php
+- 15:04:51.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63282/input_form.php
+- 15:04:57.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63282/input_form.php
+- 15:04:57.000 INFO: POST 200 /submit_form.php
+- 15:04:57.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63282/submit_form.php
+- 15:04:59.906 DEBUG: WM_DESTROY
+- 15:04:59.906 DEBUG: RemoveBrowserWindow(): hwnd = 918738
+- 15:04:59.906 INFO: Stopping Mongoose web server
+- 15:04:59.906 DEBUG: Mongoose webserver stopped immediately
+- 15:04:59.922 DEBUG: OnBeforeClose() hwnd=198118
+- 15:04:59.922 DEBUG: RemoveBrowserWindow(): hwnd = 198118
+- 15:04:59.922 DEBUG: GetBrowserWindow(): not found, hwnd = 198118
+- 15:04:59.922 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:04:59.922 DEBUG: Calling CefQuitMessageLoop()
+- 15:04:59.829 DEBUG: OnBrowserDestroyed()
+- 15:04:59.953 INFO: Ended application
+- 15:04:59.953 INFO: --------------------------------------------------------
+- 15:07:52.000 INFO: --------------------------------------------------------
+- 15:07:52.000 INFO: Started application
+- 15:07:52.000 INFO: Logging to: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 15:07:52.000 INFO: Log level = DEBUG4
+- 15:07:52.000 INFO: Starting Mongoose 3.9c web server
+- 15:07:52.016 INFO: WWW directory: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 15:07:52.016 INFO: Index files: input_form.php,index.html,index.php
+- 15:07:52.016 INFO: CGI interpreter: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 15:07:52.016 INFO: CGI pattern: **.php$
+- 15:07:52.016 INFO: Hide files patterns: 
+- 15:07:52.016 INFO: CGI environment variables set: TMP=C:\Users\38766\AppData\Local\Temp\,TEMP=C:\Users\38766\AppData\Local\Temp\,TMPDIR=C:\Users\38766\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:07:52.016 INFO: Web server url: http://127.0.0.1:63294/
+- 15:07:52.016 INFO: remote_debugging_port = 53130
+- 15:07:52.016 DEBUG: Command line string for the browser process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=53130
+- 15:07:52.047 DEBUG: App::OnContextInitialized()
+- 15:07:52.047 DEBUG: Window max width/height = 2480/1352
+- 15:07:52.047 DEBUG: GetBrowserWindow(): not found, hwnd = 263588
+- 15:07:52.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:07:52.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:07:52.047 DEBUG: StoreBrowserWindow(): hwnd = 263588
+- 15:07:52.000 DEBUG: Command line string for the gpu-process process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x2504 --gpu-driver-vendor=NVIDIA --gpu-driver-version=31.0.15.5244 --gpu-driver-date=5-7-2024 --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=3A24406BC0DC47614193335853B77407 --mojo-platform-channel-handle=1820 /prefetch:2
+- 15:07:52.078 DEBUG: ClientHandler::OnAfterCreated()
+- 15:07:52.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:07:52.094 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:07:52.000 DEBUG: Command line string for the renderer process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=BE0633BB9A7B3F7E359658224949B23D --lang=en-US --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=BE0633BB9A7B3F7E359658224949B23D --renderer-client-id=3 --mojo-platform-channel-handle=2344 /prefetch:1
+- 15:07:52.016 DEBUG: OnBrowserCreated()
+[0510/150752.311:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:07:53.219 INFO: GET 200 /input.css
+- 15:07:53.219 INFO: GET 200 /
+- 15:07:53.266 INFO: GET 200 /background.jpg
+- 15:07:53.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63294/
+- 15:07:54.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63294/
+- 15:07:54.250 INFO: GET 200 /rezultati.css
+- 15:07:54.250 INFO: GET 200 /rezultati_page.php
+- 15:07:54.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63294/rezultati_page.php
+- 15:08:14.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63294/rezultati_page.php
+- 15:08:14.687 INFO: GET 200 /input_form.php
+- 15:08:14.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63294/input_form.php
+- 15:08:20.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63294/input_form.php
+- 15:08:20.297 INFO: POST 200 /submit_form.php
+- 15:08:20.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63294/submit_form.php
+- 15:08:54.266 DEBUG: WM_DESTROY
+- 15:08:54.266 DEBUG: RemoveBrowserWindow(): hwnd = 263588
+- 15:08:54.266 INFO: Stopping Mongoose web server
+- 15:08:54.266 DEBUG: Mongoose webserver stopped immediately
+- 15:08:54.281 DEBUG: OnBeforeClose() hwnd=263592
+- 15:08:54.281 DEBUG: RemoveBrowserWindow(): hwnd = 263592
+- 15:08:54.281 DEBUG: GetBrowserWindow(): not found, hwnd = 263592
+- 15:08:54.281 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:08:54.281 DEBUG: Calling CefQuitMessageLoop()
+- 15:08:54.172 DEBUG: OnBrowserDestroyed()
+- 15:08:54.328 INFO: Ended application
+- 15:08:54.328 INFO: --------------------------------------------------------
+- 15:10:09.000 INFO: --------------------------------------------------------
+- 15:10:09.000 INFO: Started application
+- 15:10:09.000 INFO: Logging to: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 15:10:09.000 INFO: Log level = DEBUG4
+- 15:10:09.000 INFO: Starting Mongoose 3.9c web server
+- 15:10:09.000 INFO: WWW directory: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 15:10:09.000 INFO: Index files: input_form.php,index.html,index.php
+- 15:10:09.000 INFO: CGI interpreter: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 15:10:09.000 INFO: CGI pattern: **.php$
+- 15:10:09.000 INFO: Hide files patterns: 
+- 15:10:09.000 INFO: CGI environment variables set: TMP=C:\Users\38766\AppData\Local\Temp\,TEMP=C:\Users\38766\AppData\Local\Temp\,TMPDIR=C:\Users\38766\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:10:09.016 INFO: Web server url: http://127.0.0.1:63302/
+- 15:10:09.016 INFO: remote_debugging_port = 63104
+- 15:10:09.016 DEBUG: Command line string for the browser process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=63104
+- 15:10:09.047 DEBUG: App::OnContextInitialized()
+- 15:10:09.047 DEBUG: Window max width/height = 2480/1352
+- 15:10:09.047 DEBUG: GetBrowserWindow(): not found, hwnd = 132702
+- 15:10:09.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:10:09.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:10:09.047 DEBUG: StoreBrowserWindow(): hwnd = 132702
+- 15:10:09.000 DEBUG: Command line string for the gpu-process process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x2504 --gpu-driver-vendor=NVIDIA --gpu-driver-version=31.0.15.5244 --gpu-driver-date=5-7-2024 --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=20D6571AD1111D50C38FCCD305AECBA1 --mojo-platform-channel-handle=1812 /prefetch:2
+- 15:10:09.079 DEBUG: ClientHandler::OnAfterCreated()
+- 15:10:09.079 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:10:09.094 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:10:09.000 DEBUG: Command line string for the renderer process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D36FF0FC139A050D26BA13CEF5E06411 --lang=en-US --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D36FF0FC139A050D26BA13CEF5E06411 --renderer-client-id=3 --mojo-platform-channel-handle=2336 /prefetch:1
+- 15:10:09.015 DEBUG: OnBrowserCreated()
+[0510/151010.007:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:10:11.204 INFO: GET 200 /input.css
+- 15:10:11.204 INFO: GET 200 /
+- 15:10:11.266 INFO: GET 200 /background.jpg
+- 15:10:11.282 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63302/
+- 15:10:12.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63302/
+- 15:10:12.391 INFO: GET 200 /rezultati.css
+- 15:10:12.391 INFO: GET 200 /rezultati_page.php
+- 15:10:12.407 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63302/rezultati_page.php
+- 15:10:14.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63302/rezultati_page.php
+- 15:10:15.219 INFO: GET 200 /input_form.php
+- 15:10:15.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63302/input_form.php
+- 15:10:21.829 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63302/input_form.php
+- 15:10:21.891 INFO: POST 302 /submit_form.php
+- 15:10:21.938 INFO: GET 200 /input_form.php
+- 15:10:21.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63302/input_form.php
+- 15:10:22.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63302/input_form.php
+- 15:10:22.188 INFO: GET 200 /rezultati_page.php
+- 15:10:22.188 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63302/rezultati_page.php
+- 15:10:25.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63302/rezultati_page.php
+- 15:10:25.141 INFO: GET 200 /input_form.php
+- 15:10:25.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63302/input_form.php
+- 15:10:27.657 DEBUG: WM_DESTROY
+- 15:10:27.657 DEBUG: RemoveBrowserWindow(): hwnd = 132702
+- 15:10:27.657 INFO: Stopping Mongoose web server
+- 15:10:27.657 DEBUG: Mongoose webserver stopped immediately
+- 15:10:27.657 DEBUG: OnBeforeClose() hwnd=132686
+- 15:10:27.657 DEBUG: RemoveBrowserWindow(): hwnd = 132686
+- 15:10:27.657 DEBUG: GetBrowserWindow(): not found, hwnd = 132686
+- 15:10:27.657 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:10:27.657 DEBUG: Calling CefQuitMessageLoop()
+- 15:10:27.562 DEBUG: OnBrowserDestroyed()
+- 15:10:27.704 INFO: Ended application
+- 15:10:27.704 INFO: --------------------------------------------------------
+- 15:10:43.000 INFO: --------------------------------------------------------
+- 15:10:43.000 INFO: Started application
+- 15:10:43.000 INFO: Logging to: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 15:10:43.000 INFO: Log level = DEBUG4
+- 15:10:43.000 INFO: Starting Mongoose 3.9c web server
+- 15:10:43.000 INFO: WWW directory: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 15:10:43.000 INFO: Index files: input_form.php,index.html,index.php
+- 15:10:43.000 INFO: CGI interpreter: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 15:10:43.000 INFO: CGI pattern: **.php$
+- 15:10:43.000 INFO: Hide files patterns: 
+- 15:10:43.000 INFO: CGI environment variables set: TMP=C:\Users\38766\AppData\Local\Temp\,TEMP=C:\Users\38766\AppData\Local\Temp\,TMPDIR=C:\Users\38766\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:10:43.000 INFO: Web server url: http://127.0.0.1:63313/
+- 15:10:43.000 INFO: remote_debugging_port = 59403
+- 15:10:43.000 DEBUG: Command line string for the browser process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=59403
+- 15:10:43.031 DEBUG: App::OnContextInitialized()
+- 15:10:43.031 DEBUG: Window max width/height = 2480/1352
+- 15:10:43.031 DEBUG: GetBrowserWindow(): not found, hwnd = 656530
+- 15:10:43.031 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:10:43.031 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:10:43.031 DEBUG: StoreBrowserWindow(): hwnd = 656530
+- 15:10:43.000 DEBUG: Command line string for the gpu-process process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x2504 --gpu-driver-vendor=NVIDIA --gpu-driver-version=31.0.15.5244 --gpu-driver-date=5-7-2024 --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=2631C2D7D193675059487F96FA66EEC5 --mojo-platform-channel-handle=1836 /prefetch:2
+- 15:10:43.063 DEBUG: ClientHandler::OnAfterCreated()
+- 15:10:43.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:10:43.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:10:43.000 DEBUG: Command line string for the renderer process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=20EEC3BD43A463EE459135D6CA649A50 --lang=en-US --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=20EEC3BD43A463EE459135D6CA649A50 --renderer-client-id=3 --mojo-platform-channel-handle=2280 /prefetch:1
+- 15:10:43.016 DEBUG: OnBrowserCreated()
+[0510/151043.834:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:10:44.188 INFO: GET 200 /input.css
+- 15:10:44.188 INFO: GET 200 /
+- 15:10:44.235 INFO: GET 200 /background.jpg
+- 15:10:44.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63313/
+- 15:10:46.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63313/
+- 15:10:46.891 INFO: GET 200 /rezultati.css
+- 15:10:46.891 INFO: GET 200 /rezultati_page.php
+- 15:10:46.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63313/rezultati_page.php
+- 15:11:53.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63313/rezultati_page.php
+- 15:11:53.313 INFO: GET 200 /input_form.php
+- 15:11:53.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63313/input_form.php
+- 15:11:55.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63313/input_form.php
+- 15:11:55.438 INFO: GET 200 /rezultati_page.php
+- 15:11:55.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63313/rezultati_page.php
+- 15:11:59.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63313/rezultati_page.php
+- 15:11:59.641 INFO: GET 200 /input_form.php
+- 15:11:59.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63313/input_form.php
+- 15:14:28.531 DEBUG: WM_DESTROY
+- 15:14:28.531 DEBUG: RemoveBrowserWindow(): hwnd = 656530
+- 15:14:28.531 INFO: Stopping Mongoose web server
+- 15:14:28.531 DEBUG: Mongoose webserver stopped immediately
+- 15:14:28.531 DEBUG: OnBeforeClose() hwnd=263572
+- 15:14:28.531 DEBUG: RemoveBrowserWindow(): hwnd = 263572
+- 15:14:28.531 DEBUG: GetBrowserWindow(): not found, hwnd = 263572
+- 15:14:28.531 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:14:28.531 DEBUG: Calling CefQuitMessageLoop()
+- 15:14:28.453 DEBUG: OnBrowserDestroyed()
+- 15:14:28.578 INFO: Ended application
+- 15:14:28.578 INFO: --------------------------------------------------------
+- 15:14:35.000 INFO: --------------------------------------------------------
+- 15:14:35.000 INFO: Started application
+- 15:14:35.000 INFO: Logging to: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 15:14:35.000 INFO: Log level = DEBUG4
+- 15:14:35.000 INFO: Starting Mongoose 3.9c web server
+- 15:14:35.000 INFO: WWW directory: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 15:14:35.000 INFO: Index files: input_form.php,index.html,index.php
+- 15:14:35.000 INFO: CGI interpreter: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 15:14:35.000 INFO: CGI pattern: **.php$
+- 15:14:35.000 INFO: Hide files patterns: 
+- 15:14:35.000 INFO: CGI environment variables set: TMP=C:\Users\38766\AppData\Local\Temp\,TEMP=C:\Users\38766\AppData\Local\Temp\,TMPDIR=C:\Users\38766\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:14:35.000 INFO: Web server url: http://127.0.0.1:63324/
+- 15:14:35.000 INFO: remote_debugging_port = 55866
+- 15:14:35.000 DEBUG: Command line string for the browser process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=55866
+- 15:14:35.031 DEBUG: App::OnContextInitialized()
+- 15:14:35.031 DEBUG: Window max width/height = 2480/1352
+- 15:14:35.047 DEBUG: GetBrowserWindow(): not found, hwnd = 394712
+- 15:14:35.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:14:35.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:14:35.047 DEBUG: StoreBrowserWindow(): hwnd = 394712
+- 15:14:35.000 DEBUG: Command line string for the gpu-process process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x2504 --gpu-driver-vendor=NVIDIA --gpu-driver-version=31.0.15.5244 --gpu-driver-date=5-7-2024 --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=D3E913A7F32EA45EB5B4848EA5665C5F --mojo-platform-channel-handle=1820 /prefetch:2
+- 15:14:35.078 DEBUG: ClientHandler::OnAfterCreated()
+- 15:14:35.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:14:35.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:14:35.000 DEBUG: Command line string for the renderer process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D0538C85E4F8DC0EFF028BCF35E969C7 --lang=en-US --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D0538C85E4F8DC0EFF028BCF35E969C7 --renderer-client-id=3 --mojo-platform-channel-handle=2348 /prefetch:1
+- 15:14:35.015 DEBUG: OnBrowserCreated()
+[0510/151435.226:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:14:36.203 INFO: GET 200 /input.css
+- 15:14:36.203 INFO: GET 200 /
+- 15:14:36.265 INFO: GET 200 /background.jpg
+- 15:14:36.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63324/
+- 15:14:37.562 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63324/
+- 15:14:37.625 INFO: GET 200 /rezultati.css
+- 15:14:37.625 INFO: GET 200 /rezultati_page.php
+- 15:14:37.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63324/rezultati_page.php
+- 15:15:10.094 DEBUG: WM_DESTROY
+- 15:15:10.094 DEBUG: RemoveBrowserWindow(): hwnd = 394712
+- 15:15:10.094 INFO: Stopping Mongoose web server
+- 15:15:10.094 DEBUG: Mongoose webserver stopped immediately
+- 15:15:10.094 DEBUG: OnBeforeClose() hwnd=329082
+- 15:15:10.094 DEBUG: RemoveBrowserWindow(): hwnd = 329082
+- 15:15:10.094 DEBUG: GetBrowserWindow(): not found, hwnd = 329082
+- 15:15:10.094 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:15:10.094 DEBUG: Calling CefQuitMessageLoop()
+- 15:15:10.015 DEBUG: OnBrowserDestroyed()
+- 15:15:10.125 INFO: Ended application
+- 15:15:10.125 INFO: --------------------------------------------------------
+- 15:19:16.000 INFO: --------------------------------------------------------
+- 15:19:16.000 INFO: Started application
+- 15:19:16.000 INFO: Logging to: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 15:19:16.000 INFO: Log level = DEBUG4
+- 15:19:16.000 INFO: Starting Mongoose 3.9c web server
+- 15:19:16.000 INFO: WWW directory: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 15:19:16.000 INFO: Index files: input_form.php,index.html,index.php
+- 15:19:16.000 INFO: CGI interpreter: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 15:19:16.000 INFO: CGI pattern: **.php$
+- 15:19:16.000 INFO: Hide files patterns: 
+- 15:19:16.000 INFO: CGI environment variables set: TMP=C:\Users\38766\AppData\Local\Temp\,TEMP=C:\Users\38766\AppData\Local\Temp\,TMPDIR=C:\Users\38766\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:19:16.000 INFO: Web server url: http://127.0.0.1:63331/
+- 15:19:16.000 INFO: remote_debugging_port = 62109
+- 15:19:16.000 DEBUG: Command line string for the browser process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=62109
+- 15:19:16.032 DEBUG: App::OnContextInitialized()
+- 15:19:16.032 DEBUG: Window max width/height = 2480/1352
+- 15:19:16.032 DEBUG: GetBrowserWindow(): not found, hwnd = 394820
+- 15:19:16.032 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:19:16.032 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:19:16.032 DEBUG: StoreBrowserWindow(): hwnd = 394820
+- 15:19:16.000 DEBUG: Command line string for the gpu-process process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x2504 --gpu-driver-vendor=NVIDIA --gpu-driver-version=31.0.15.5244 --gpu-driver-date=5-7-2024 --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=507798058BEB2E9011DD9313FC675DCB --mojo-platform-channel-handle=1808 /prefetch:2
+- 15:19:16.063 DEBUG: ClientHandler::OnAfterCreated()
+- 15:19:16.063 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:19:16.079 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:19:16.000 DEBUG: Command line string for the renderer process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=B6299E515D26341EA7735D85BE90A6F9 --lang=en-US --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=B6299E515D26341EA7735D85BE90A6F9 --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+- 15:19:16.016 DEBUG: OnBrowserCreated()
+[0510/151916.736:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:19:17.204 INFO: GET 200 /input.css
+- 15:19:17.204 INFO: GET 200 /
+- 15:19:17.250 INFO: GET 200 /background.jpg
+- 15:19:17.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/
+- 15:19:18.407 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/
+- 15:19:18.454 INFO: GET 200 /rezultati.css
+- 15:19:18.454 INFO: GET 200 /rezultati_page.php
+- 15:19:19.454 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:19:52.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:19:52.813 INFO: GET 200 /input_form.php
+- 15:19:52.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:19:53.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:19:53.516 INFO: GET 200 /rezultati_page.php
+- 15:19:53.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:20:17.704 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:20:17.766 INFO: GET 200 /input_form.php
+- 15:20:17.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:20:20.032 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:20:20.079 INFO: GET 200 /rezultati_page.php
+- 15:20:20.079 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:20:31.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:20:31.735 INFO: GET 200 /input_form.php
+- 15:20:31.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:20:40.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:20:40.657 INFO: POST 302 /submit_form.php
+- 15:20:40.704 INFO: GET 200 /input_form.php
+- 15:20:40.704 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:20:41.829 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:20:41.891 INFO: GET 200 /rezultati_page.php
+- 15:20:41.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:22:22.032 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:22:22.094 INFO: GET 200 /input_form.php
+- 15:22:22.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:22:23.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:22:23.032 INFO: GET 200 /rezultati_page.php
+- 15:22:23.032 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:22:41.360 DEBUG: ClientHandler::OnAfterCreated()
+- 15:22:41.360 DEBUG: GetBrowserWindow(): not found, hwnd = 918610
+- 15:22:41.360 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 15:22:41.360 DEBUG: StoreBrowserWindow(): hwnd = 918610
+- 15:22:41.360 DEBUG: Centering popup window relative to its parent
+- 15:22:41.375 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:22:41.000 DEBUG: Command line string for the renderer process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=29366119D75AF12B5D59691F43CCE0B1 --lang=en-US --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=29366119D75AF12B5D59691F43CCE0B1 --renderer-client-id=4 --mojo-platform-channel-handle=2816 /prefetch:1
+- 15:22:41.016 DEBUG: OnBrowserCreated()
+- 15:22:41.031 DEBUG: OnContextCreated()
+- 15:22:42.516 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 15:22:42.485 DEBUG: OnContextCreated()
+- 15:23:08.594 DEBUG: OnBeforeClose() hwnd=918610
+- 15:23:08.594 DEBUG: RemoveBrowserWindow(): hwnd = 918610
+- 15:23:27.282 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:23:27.250 DEBUG: OnContextCreated()
+- 15:23:27.344 INFO: GET 200 /input_form.php
+- 15:23:27.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:23:34.704 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:23:34.656 DEBUG: OnContextCreated()
+- 15:23:34.750 INFO: GET 200 /rezultati_page.php
+- 15:23:34.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:23:59.485 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:23:59.438 DEBUG: OnContextCreated()
+- 15:23:59.532 INFO: GET 200 /input_form.php
+- 15:23:59.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:47:40.907 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:47:40.875 DEBUG: OnContextCreated()
+- 15:47:40.969 INFO: GET 200 /rezultati_page.php
+- 15:47:40.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:47:43.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:47:43.172 DEBUG: OnContextCreated()
+- 15:47:43.266 INFO: GET 200 /input_form.php
+- 15:47:43.266 INFO: GET 200 /input.css
+- 15:47:43.282 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:47:54.579 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:47:54.531 DEBUG: OnContextCreated()
+- 15:47:54.625 INFO: GET 200 /rezultati_page.php
+- 15:47:54.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:47:55.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:47:55.719 DEBUG: OnContextCreated()
+- 15:47:55.813 INFO: GET 200 /input_form.php
+- 15:47:55.813 INFO: GET 200 /input.css
+- 15:47:55.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:48:04.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:48:04.000 DEBUG: OnContextCreated()
+- 15:48:04.094 INFO: GET 200 /rezultati_page.php
+- 15:48:04.110 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:48:05.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:48:05.828 DEBUG: OnContextCreated()
+- 15:48:05.922 INFO: GET 200 /input_form.php
+- 15:48:05.922 INFO: GET 200 /input.css
+- 15:48:05.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:48:08.532 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:48:08.485 DEBUG: OnContextCreated()
+- 15:48:08.579 INFO: GET 200 /rezultati_page.php
+- 15:48:08.579 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:48:09.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:48:09.594 DEBUG: OnContextCreated()
+- 15:48:09.688 INFO: GET 200 /input_form.php
+- 15:48:09.688 INFO: GET 304 /input.css
+- 15:48:09.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:48:42.407 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:48:43.360 DEBUG: OnContextCreated()
+- 15:48:43.454 INFO: GET 200 /rezultati_page.php
+- 15:48:43.454 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:48:43.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:48:43.188 DEBUG: OnContextCreated()
+- 15:48:43.282 INFO: GET 200 /input_form.php
+- 15:48:43.282 INFO: GET 200 /input.css
+- 15:48:43.282 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:48:49.938 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:48:49.891 DEBUG: OnContextCreated()
+- 15:48:49.985 INFO: GET 200 /rezultati_page.php
+- 15:48:49.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:50:16.954 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:50:16.906 DEBUG: OnContextCreated()
+- 15:50:16.000 INFO: GET 200 /input_form.php
+- 15:50:16.000 INFO: GET 304 /input.css
+- 15:50:16.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:50:17.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:50:17.766 DEBUG: OnContextCreated()
+- 15:50:17.875 INFO: GET 200 /rezultati_page.php
+- 15:50:17.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:50:35.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:50:35.578 DEBUG: OnContextCreated()
+- 15:50:35.672 INFO: GET 200 /input_form.php
+- 15:50:35.672 INFO: GET 304 /input.css
+- 15:50:35.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:50:51.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:50:51.750 DEBUG: OnContextCreated()
+- 15:50:51.844 INFO: GET 200 /rezultati_page.php
+- 15:50:51.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:51:44.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:51:44.719 DEBUG: OnContextCreated()
+- 15:51:44.813 INFO: GET 200 /input_form.php
+- 15:51:44.813 INFO: GET 304 /input.css
+- 15:51:44.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:51:45.704 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:51:45.672 DEBUG: OnContextCreated()
+- 15:51:45.766 INFO: GET 200 /rezultati_page.php
+- 15:51:45.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:51:53.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:51:53.797 DEBUG: OnContextCreated()
+- 15:51:53.891 INFO: GET 200 /input_form.php
+- 15:51:53.891 INFO: GET 304 /input.css
+- 15:51:53.907 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:51:54.704 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:51:54.672 DEBUG: OnContextCreated()
+- 15:51:54.766 INFO: GET 200 /rezultati_page.php
+- 15:51:54.782 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:52:34.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:52:34.422 DEBUG: OnContextCreated()
+- 15:52:34.516 INFO: GET 200 /input_form.php
+- 15:52:34.516 INFO: GET 304 /input.css
+- 15:52:34.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:53:07.860 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:53:07.813 DEBUG: OnContextCreated()
+- 15:53:07.907 INFO: GET 200 /rezultati_page.php
+- 15:53:07.907 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:53:49.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:53:49.250 DEBUG: OnContextCreated()
+- 15:53:49.344 INFO: GET 200 /input_form.php
+- 15:53:49.344 INFO: GET 304 /input.css
+- 15:53:49.360 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:53:50.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:53:50.203 DEBUG: OnContextCreated()
+- 15:53:50.297 INFO: GET 200 /rezultati_page.php
+- 15:53:50.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:54:07.563 DEBUG: ClientHandler::OnAfterCreated()
+- 15:54:07.563 DEBUG: GetBrowserWindow(): not found, hwnd = 2425944
+- 15:54:07.563 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 15:54:07.563 DEBUG: StoreBrowserWindow(): hwnd = 2425944
+- 15:54:07.563 DEBUG: Centering popup window relative to its parent
+- 15:54:07.563 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:54:07.015 DEBUG: Command line string for the renderer process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=B85E438CC4BD39CD2ED11D8C5CD1BCD7 --lang=en-US --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=B85E438CC4BD39CD2ED11D8C5CD1BCD7 --renderer-client-id=5 --mojo-platform-channel-handle=3432 /prefetch:1
+- 15:54:07.031 DEBUG: OnBrowserCreated()
+- 15:54:07.031 DEBUG: OnContextCreated()
+- 15:54:07.704 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 15:54:41.782 DEBUG: OnBeforeClose() hwnd=2425944
+- 15:54:41.782 DEBUG: RemoveBrowserWindow(): hwnd = 2425944
+- 15:54:41.218 DEBUG: OnBrowserDestroyed()
+- 15:55:00.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:55:00.594 DEBUG: OnContextCreated()
+- 15:55:00.688 INFO: GET 200 /input_form.php
+- 15:55:00.688 INFO: GET 304 /input.css
+- 15:55:00.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:55:01.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:55:01.422 DEBUG: OnContextCreated()
+- 15:55:01.516 INFO: GET 200 /rezultati_page.php
+- 15:55:01.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:55:26.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:55:26.531 DEBUG: OnContextCreated()
+- 15:55:26.625 INFO: GET 200 /input_form.php
+- 15:55:26.625 INFO: GET 304 /input.css
+- 15:55:26.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:55:27.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:55:27.422 DEBUG: OnContextCreated()
+- 15:55:27.516 INFO: GET 200 /rezultati_page.php
+- 15:55:27.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:55:51.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:55:51.641 DEBUG: OnContextCreated()
+- 15:55:51.735 INFO: GET 200 /input_form.php
+- 15:55:51.735 INFO: GET 304 /input.css
+- 15:55:51.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:55:57.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:55:57.516 DEBUG: OnContextCreated()
+- 15:55:57.610 INFO: GET 200 /rezultati_page.php
+- 15:55:57.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:56:01.657 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:56:01.610 DEBUG: OnContextCreated()
+- 15:56:01.704 INFO: GET 200 /input_form.php
+- 15:56:01.704 INFO: GET 304 /input.css
+- 15:56:01.704 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:56:02.063 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:56:02.016 DEBUG: OnContextCreated()
+- 15:56:02.110 INFO: GET 200 /rezultati_page.php
+- 15:56:02.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:56:10.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:56:10.219 DEBUG: OnContextCreated()
+- 15:56:10.313 INFO: GET 200 /input_form.php
+- 15:56:10.313 INFO: GET 304 /input.css
+- 15:56:10.313 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:56:15.938 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/input_form.php
+- 15:56:15.891 DEBUG: OnContextCreated()
+- 15:56:15.985 INFO: GET 200 /rezultati_page.php
+- 15:56:15.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:56:20.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63331/rezultati_page.php
+- 15:56:20.766 DEBUG: OnContextCreated()
+- 15:56:20.875 INFO: GET 200 /input_form.php
+- 15:56:20.875 INFO: GET 304 /input.css
+- 15:56:20.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63331/input_form.php
+- 15:56:37.094 DEBUG: WM_DESTROY
+- 15:56:37.094 DEBUG: RemoveBrowserWindow(): hwnd = 394820
+- 15:56:37.094 INFO: Stopping Mongoose web server
+- 15:56:37.094 DEBUG: Mongoose webserver stopped immediately
+- 15:56:37.110 DEBUG: OnBeforeClose() hwnd=853148
+- 15:56:37.110 DEBUG: RemoveBrowserWindow(): hwnd = 853148
+- 15:56:37.110 DEBUG: GetBrowserWindow(): not found, hwnd = 853148
+- 15:56:37.110 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:56:37.110 DEBUG: Calling CefQuitMessageLoop()
+- 15:56:37.031 DEBUG: OnBrowserDestroyed()
+- 15:56:37.141 INFO: Ended application
+- 15:56:37.141 INFO: --------------------------------------------------------
+- 15:58:48.000 INFO: --------------------------------------------------------
+- 15:58:48.000 INFO: Started application
+- 15:58:48.000 INFO: Logging to: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 15:58:48.000 INFO: Log level = DEBUG4
+- 15:58:48.000 INFO: Starting Mongoose 3.9c web server
+- 15:58:48.000 INFO: WWW directory: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 15:58:48.000 INFO: Index files: input_form.php,index.html,index.php
+- 15:58:48.000 INFO: CGI interpreter: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 15:58:48.000 INFO: CGI pattern: **.php$
+- 15:58:48.000 INFO: Hide files patterns: 
+- 15:58:48.000 INFO: CGI environment variables set: TMP=C:\Users\38766\AppData\Local\Temp\,TEMP=C:\Users\38766\AppData\Local\Temp\,TMPDIR=C:\Users\38766\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:58:48.000 INFO: Web server url: http://127.0.0.1:63440/
+- 15:58:48.000 INFO: remote_debugging_port = 50187
+- 15:58:48.000 DEBUG: Command line string for the browser process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=50187
+- 15:58:48.031 DEBUG: App::OnContextInitialized()
+- 15:58:48.031 DEBUG: Window max width/height = 2480/1352
+[0510/155848.426:ERROR:tcp_socket_win.cc(355)] bind() returned an error: An attempt was made to access a socket in a way forbidden by its access permissions. (0x271D)
+[0510/155848.427:ERROR:devtools_http_handler.cc(221)] Cannot start http server for devtools. Stop devtools.
+- 15:58:48.031 DEBUG: GetBrowserWindow(): not found, hwnd = 853138
+- 15:58:48.031 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:58:48.031 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:58:48.031 DEBUG: StoreBrowserWindow(): hwnd = 853138
+- 15:58:48.000 DEBUG: Command line string for the gpu-process process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x2504 --gpu-driver-vendor=NVIDIA --gpu-driver-version=31.0.15.5244 --gpu-driver-date=5-7-2024 --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=0EBD513394560463C604700EC8D2E378 --mojo-platform-channel-handle=1808 /prefetch:2
+- 15:58:48.078 DEBUG: ClientHandler::OnAfterCreated()
+- 15:58:48.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:58:48.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:58:48.000 DEBUG: Command line string for the renderer process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=1288AF98809A4B893DED1B69228B0694 --lang=en-US --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=1288AF98809A4B893DED1B69228B0694 --renderer-client-id=3 --mojo-platform-channel-handle=2316 /prefetch:1
+- 15:58:48.016 DEBUG: OnBrowserCreated()
+[0510/155848.599:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:58:49.203 INFO: GET 200 /input.css
+- 15:58:49.203 INFO: GET 200 /
+- 15:58:49.266 INFO: GET 200 /background.jpg
+- 15:58:49.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63440/
+- 15:58:50.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63440/
+- 15:58:50.610 INFO: GET 200 /rezultati.css
+- 15:58:50.610 INFO: GET 200 /rezultati_page.php
+- 15:58:51.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63440/rezultati_page.php
+- 15:58:55.969 DEBUG: WM_DESTROY
+- 15:58:55.969 DEBUG: RemoveBrowserWindow(): hwnd = 853138
+- 15:58:55.969 INFO: Stopping Mongoose web server
+- 15:58:55.969 DEBUG: Mongoose webserver stopped immediately
+- 15:58:55.985 DEBUG: OnBeforeClose() hwnd=656908
+- 15:58:55.985 DEBUG: RemoveBrowserWindow(): hwnd = 656908
+- 15:58:55.985 DEBUG: GetBrowserWindow(): not found, hwnd = 656908
+- 15:58:55.985 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:58:55.985 DEBUG: Calling CefQuitMessageLoop()
+- 15:58:55.891 DEBUG: OnBrowserDestroyed()
+- 15:58:55.031 INFO: Ended application
+- 15:58:55.031 INFO: --------------------------------------------------------
+- 15:59:30.000 INFO: --------------------------------------------------------
+- 15:59:30.000 INFO: Started application
+- 15:59:30.000 INFO: Logging to: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 15:59:30.000 INFO: Log level = DEBUG4
+- 15:59:30.000 INFO: Starting Mongoose 3.9c web server
+- 15:59:30.000 INFO: WWW directory: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 15:59:30.000 INFO: Index files: input_form.php,index.html,index.php
+- 15:59:30.000 INFO: CGI interpreter: C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 15:59:30.000 INFO: CGI pattern: **.php$
+- 15:59:30.000 INFO: Hide files patterns: 
+- 15:59:30.000 INFO: CGI environment variables set: TMP=C:\Users\38766\AppData\Local\Temp\,TEMP=C:\Users\38766\AppData\Local\Temp\,TMPDIR=C:\Users\38766\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:59:30.000 INFO: Web server url: http://127.0.0.1:63448/
+- 15:59:30.000 INFO: remote_debugging_port = 61469
+- 15:59:30.000 DEBUG: Command line string for the browser process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=61469
+- 15:59:30.031 DEBUG: App::OnContextInitialized()
+- 15:59:30.031 DEBUG: Window max width/height = 2480/1352
+- 15:59:30.031 DEBUG: GetBrowserWindow(): not found, hwnd = 918952
+- 15:59:30.031 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:59:30.031 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:59:30.031 DEBUG: StoreBrowserWindow(): hwnd = 918952
+- 15:59:30.000 DEBUG: Command line string for the gpu-process process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x2504 --gpu-driver-vendor=NVIDIA --gpu-driver-version=31.0.15.5244 --gpu-driver-date=5-7-2024 --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=0935AFCF5542EE0E8E2CCC64DA55CA0D --mojo-platform-channel-handle=1820 /prefetch:2
+- 15:59:30.078 DEBUG: ClientHandler::OnAfterCreated()
+- 15:59:30.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:59:30.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:59:30.000 DEBUG: Command line string for the renderer process: "C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=3911BA0D4D5576C6EE61D4D1FC7C9F8C --lang=en-US --lang=en-US --log-file="C:\Users\38766\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=3911BA0D4D5576C6EE61D4D1FC7C9F8C --renderer-client-id=3 --mojo-platform-channel-handle=2356 /prefetch:1
+- 15:59:30.015 DEBUG: OnBrowserCreated()
+[0510/155930.384:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:59:31.203 INFO: GET 200 /input.css
+- 15:59:31.203 INFO: GET 200 /
+- 15:59:31.250 INFO: GET 200 /background.jpg
+- 15:59:31.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63448/
+- 15:59:32.313 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63448/
+- 15:59:32.359 INFO: GET 200 /rezultati.css
+- 15:59:32.359 INFO: GET 200 /rezultati_page.php
+- 15:59:32.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63448/rezultati_page.php
+- 15:59:34.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63448/rezultati_page.php
+- 15:59:34.609 INFO: GET 200 /input_form.php
+- 15:59:34.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63448/input_form.php
+- 15:59:36.344 DEBUG: WM_DESTROY
+- 15:59:36.344 DEBUG: RemoveBrowserWindow(): hwnd = 918952
+- 15:59:36.344 INFO: Stopping Mongoose web server
+- 15:59:36.344 DEBUG: Mongoose webserver stopped immediately
+- 15:59:36.359 DEBUG: OnBeforeClose() hwnd=1377372
+- 15:59:36.359 DEBUG: RemoveBrowserWindow(): hwnd = 1377372
+- 15:59:36.359 DEBUG: GetBrowserWindow(): not found, hwnd = 1377372
+- 15:59:36.359 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:59:36.359 DEBUG: Calling CefQuitMessageLoop()
+- 15:59:36.281 DEBUG: OnBrowserDestroyed()
+- 15:59:36.391 INFO: Ended application
+- 15:59:36.391 INFO: --------------------------------------------------------

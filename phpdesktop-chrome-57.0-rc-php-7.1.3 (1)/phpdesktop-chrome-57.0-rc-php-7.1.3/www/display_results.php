@@ -9,26 +9,33 @@ $sql = "SELECT * FROM taxi_drives ORDER BY date";
 $result = $conn->query($sql);
 
 // Check if there are any results
-if ($result->numColumns() > 0) {
+if ($result) {
     // Initialize an array to store the results grouped by month
     $results_by_month = array();
+    $total_earned_per_month = array(); // Array to store total earnings for each month
 
     // Loop through each row of the result set
     while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
         // Extract the month and year from the date_of_drive field
         $month_year = date('F Y', strtotime($row['date']));
 
+        // Add the money_amount to the total for the corresponding month
+        if (!isset($total_earned_per_month[$month_year])) {
+            $total_earned_per_month[$month_year] = 0;
+        }
+        $total_earned_per_month[$month_year] += $row['amount'];
+
         // Add the row to the corresponding month in the results array
         $results_by_month[$month_year][] = $row;
     }
 
     // Display the results
-    echo "<h1>Zarada po mjesecu: <strong>";
+    echo "<h1>Zarada po mjesecu: <strong><br><br>";
     // Calculate the total amount earned
     $total_amount_earned = 0;
     foreach ($results_by_month as $month => $drivings) {
         echo "<details>";
-        echo "<summary>$month</summary>";
+        echo "<summary>⬇️$month</summary>";
         echo "<ul>";
         // Loop through the drivings for the current month
         foreach ($drivings as $driving) {
@@ -37,6 +44,8 @@ if ($result->numColumns() > 0) {
             $total_amount_earned += $driving['amount'];
         }
         echo "</ul>";
+        // Display total earnings for the current month
+        echo "<span>Ukupno zaradeno u ovom mjesecu:</span> 💸<span>{$total_earned_per_month[$month]}</span> BAM";
         echo "</details>";
     }
     echo "<br>Kuki taxi zarada do sad: 💸<span>$total_amount_earned</span>  BAM</strong></h1>";
