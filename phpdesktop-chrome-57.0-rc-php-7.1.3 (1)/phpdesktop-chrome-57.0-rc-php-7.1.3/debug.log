@@ -1868,3 +1868,187 @@
 - 15:59:36.281 DEBUG: OnBrowserDestroyed()
 - 15:59:36.391 INFO: Ended application
 - 15:59:36.391 INFO: --------------------------------------------------------
+- 23:56:49.016 INFO: --------------------------------------------------------
+- 23:56:49.016 INFO: Started application
+- 23:56:49.016 INFO: Logging to: C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 23:56:49.016 INFO: Log level = DEBUG4
+- 23:56:49.016 INFO: Starting Mongoose 3.9c web server
+- 23:56:49.016 INFO: WWW directory: C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 23:56:49.016 INFO: Index files: input_form.php,index.html,index.php
+- 23:56:49.016 INFO: CGI interpreter: C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 23:56:49.016 INFO: CGI pattern: **.php$
+- 23:56:49.016 INFO: Hide files patterns: 
+- 23:56:49.016 INFO: CGI environment variables set: TMP=C:\Users\38766\AppData\Local\Temp\,TEMP=C:\Users\38766\AppData\Local\Temp\,TMPDIR=C:\Users\38766\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:56:49.016 INFO: Web server url: http://127.0.0.1:50579/
+- 23:56:49.016 INFO: remote_debugging_port = 54639
+- 23:56:49.016 DEBUG: Command line string for the browser process: "C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=54639
+- 23:56:49.141 DEBUG: App::OnContextInitialized()
+- 23:56:49.141 DEBUG: Window max width/height = 2480/1352
+- 23:56:49.141 DEBUG: GetBrowserWindow(): not found, hwnd = 852108
+- 23:56:49.141 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:56:49.141 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:56:49.141 DEBUG: StoreBrowserWindow(): hwnd = 852108
+- 23:56:49.000 DEBUG: Command line string for the gpu-process process: "C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x2504 --gpu-driver-vendor=NVIDIA --gpu-driver-version=31.0.15.5244 --gpu-driver-date=5-7-2024 --lang=en-US --log-file="C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=4AEC2F4D2E2B99415819655856CF8973 --mojo-platform-channel-handle=1904 /prefetch:2
+- 23:56:49.187 DEBUG: ClientHandler::OnAfterCreated()
+- 23:56:49.187 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:56:49.187 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:56:49.000 DEBUG: Command line string for the renderer process: "C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=F2E4F9C847BDE6C4E64BE66361390EFE --lang=en-US --lang=en-US --log-file="C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F2E4F9C847BDE6C4E64BE66361390EFE --renderer-client-id=3 --mojo-platform-channel-handle=2316 /prefetch:1
+- 23:56:49.015 DEBUG: OnBrowserCreated()
+[0515/235649.630:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:56:50.703 INFO: GET 200 /input.css
+- 23:56:50.703 INFO: GET 200 /
+- 23:56:51.781 INFO: GET 200 /background.jpg
+- 23:56:51.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50579/
+- 23:56:53.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50579/
+- 23:56:53.391 INFO: GET 200 /rezultati.css
+- 23:56:53.391 INFO: GET 200 /rezultati_page.php
+- 23:56:53.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50579/rezultati_page.php
+- 23:57:03.984 DEBUG: WM_DESTROY
+- 23:57:03.984 DEBUG: RemoveBrowserWindow(): hwnd = 852108
+- 23:57:03.984 INFO: Stopping Mongoose web server
+- 23:57:03.984 DEBUG: Mongoose webserver stopped immediately
+- 23:57:03.984 DEBUG: OnBeforeClose() hwnd=460010
+- 23:57:03.984 DEBUG: RemoveBrowserWindow(): hwnd = 460010
+- 23:57:03.984 DEBUG: GetBrowserWindow(): not found, hwnd = 460010
+- 23:57:03.984 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:57:03.984 DEBUG: Calling CefQuitMessageLoop()
+- 23:57:03.781 DEBUG: OnBrowserDestroyed()
+- 23:57:03.016 INFO: Ended application
+- 23:57:03.016 INFO: --------------------------------------------------------
+- 23:58:21.000 INFO: --------------------------------------------------------
+- 23:58:21.000 INFO: Started application
+- 23:58:21.000 INFO: Logging to: C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 23:58:21.000 INFO: Log level = DEBUG4
+- 23:58:21.000 INFO: Starting Mongoose 3.9c web server
+- 23:58:21.000 INFO: WWW directory: C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 23:58:21.000 INFO: Index files: input_form.php,index.html,index.php
+- 23:58:21.000 INFO: CGI interpreter: C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 23:58:21.000 INFO: CGI pattern: **.php$
+- 23:58:21.000 INFO: Hide files patterns: 
+- 23:58:21.000 INFO: CGI environment variables set: TMP=C:\Users\38766\AppData\Local\Temp\,TEMP=C:\Users\38766\AppData\Local\Temp\,TMPDIR=C:\Users\38766\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:58:21.000 INFO: Web server url: http://127.0.0.1:50589/
+- 23:58:21.000 INFO: remote_debugging_port = 56353
+- 23:58:21.015 DEBUG: Command line string for the browser process: "C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=56353
+- 23:58:21.047 DEBUG: App::OnContextInitialized()
+- 23:58:21.047 DEBUG: Window max width/height = 2480/1352
+- 23:58:21.047 DEBUG: GetBrowserWindow(): not found, hwnd = 526744
+- 23:58:21.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:58:21.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:58:21.047 DEBUG: StoreBrowserWindow(): hwnd = 526744
+- 23:58:21.000 DEBUG: Command line string for the gpu-process process: "C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x2504 --gpu-driver-vendor=NVIDIA --gpu-driver-version=31.0.15.5244 --gpu-driver-date=5-7-2024 --lang=en-US --log-file="C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=25725036902C482E68154D388938BB0B --mojo-platform-channel-handle=1848 /prefetch:2
+- 23:58:21.078 DEBUG: ClientHandler::OnAfterCreated()
+- 23:58:21.093 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:58:21.093 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:58:21.000 DEBUG: Command line string for the renderer process: "C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=62993D70E6E2FD46F34AF1BFA4420DF7 --lang=en-US --lang=en-US --log-file="C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=62993D70E6E2FD46F34AF1BFA4420DF7 --renderer-client-id=3 --mojo-platform-channel-handle=2296 /prefetch:1
+- 23:58:21.016 DEBUG: OnBrowserCreated()
+[0515/235821.533:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:58:22.218 INFO: GET 200 /input.css
+- 23:58:22.218 INFO: GET 200 /
+- 23:58:22.281 INFO: GET 200 /background.jpg
+- 23:58:22.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50589/
+- 23:58:31.359 DEBUG: WM_DESTROY
+- 23:58:31.359 DEBUG: RemoveBrowserWindow(): hwnd = 526744
+- 23:58:31.359 INFO: Stopping Mongoose web server
+- 23:58:31.359 DEBUG: Mongoose webserver stopped immediately
+- 23:58:31.375 DEBUG: OnBeforeClose() hwnd=1574098
+- 23:58:31.375 DEBUG: RemoveBrowserWindow(): hwnd = 1574098
+- 23:58:31.375 DEBUG: GetBrowserWindow(): not found, hwnd = 1574098
+- 23:58:31.375 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:58:31.375 DEBUG: Calling CefQuitMessageLoop()
+- 23:58:31.266 DEBUG: OnBrowserDestroyed()
+- 23:58:31.390 INFO: Ended application
+- 23:58:31.390 INFO: --------------------------------------------------------
+- 23:58:33.000 INFO: --------------------------------------------------------
+- 23:58:33.000 INFO: Started application
+- 23:58:33.000 INFO: Logging to: C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 23:58:33.000 INFO: Log level = DEBUG4
+- 23:58:33.000 INFO: Starting Mongoose 3.9c web server
+- 23:58:33.000 INFO: WWW directory: C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 23:58:33.000 INFO: Index files: input_form.php,index.html,index.php
+- 23:58:33.000 INFO: CGI interpreter: C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 23:58:33.000 INFO: CGI pattern: **.php$
+- 23:58:33.000 INFO: Hide files patterns: 
+- 23:58:33.000 INFO: CGI environment variables set: TMP=C:\Users\38766\AppData\Local\Temp\,TEMP=C:\Users\38766\AppData\Local\Temp\,TMPDIR=C:\Users\38766\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:58:33.016 INFO: Web server url: http://127.0.0.1:50594/
+- 23:58:33.016 INFO: remote_debugging_port = 51326
+- 23:58:33.016 DEBUG: Command line string for the browser process: "C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=51326
+- 23:58:33.047 DEBUG: App::OnContextInitialized()
+- 23:58:33.047 DEBUG: Window max width/height = 2480/1352
+- 23:58:33.047 DEBUG: GetBrowserWindow(): not found, hwnd = 2492418
+- 23:58:33.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:58:33.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:58:33.047 DEBUG: StoreBrowserWindow(): hwnd = 2492418
+- 23:58:33.000 DEBUG: Command line string for the gpu-process process: "C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x2504 --gpu-driver-vendor=NVIDIA --gpu-driver-version=31.0.15.5244 --gpu-driver-date=5-7-2024 --lang=en-US --log-file="C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=041BF1368EB648810AF43D3945A5A26C --mojo-platform-channel-handle=1816 /prefetch:2
+- 23:58:33.078 DEBUG: ClientHandler::OnAfterCreated()
+- 23:58:33.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:58:33.094 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:58:33.000 DEBUG: Command line string for the renderer process: "C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=26BDA78CC354717F7F70C3BCD46B5776 --lang=en-US --lang=en-US --log-file="C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=26BDA78CC354717F7F70C3BCD46B5776 --renderer-client-id=3 --mojo-platform-channel-handle=2336 /prefetch:1
+- 23:58:33.016 DEBUG: OnBrowserCreated()
+[0515/235833.318:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:58:34.234 INFO: GET 200 /input.css
+- 23:58:34.234 INFO: GET 200 /
+- 23:58:34.281 INFO: GET 200 /background.jpg
+- 23:58:34.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50594/
+- 23:58:39.469 DEBUG: WM_DESTROY
+- 23:58:39.469 DEBUG: RemoveBrowserWindow(): hwnd = 2492418
+- 23:58:39.469 INFO: Stopping Mongoose web server
+- 23:58:39.469 DEBUG: Mongoose webserver stopped immediately
+- 23:58:39.484 DEBUG: OnBeforeClose() hwnd=592212
+- 23:58:39.484 DEBUG: RemoveBrowserWindow(): hwnd = 592212
+- 23:58:39.484 DEBUG: GetBrowserWindow(): not found, hwnd = 592212
+- 23:58:39.484 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:58:39.484 DEBUG: Calling CefQuitMessageLoop()
+- 23:58:39.375 DEBUG: OnBrowserDestroyed()
+- 23:58:39.500 INFO: Ended application
+- 23:58:39.500 INFO: --------------------------------------------------------
+- 23:58:45.000 INFO: --------------------------------------------------------
+- 23:58:45.000 INFO: Started application
+- 23:58:45.000 INFO: Logging to: C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 23:58:45.000 INFO: Log level = DEBUG4
+- 23:58:45.000 INFO: Starting Mongoose 3.9c web server
+- 23:58:45.000 INFO: WWW directory: C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 23:58:45.000 INFO: Index files: input_form.php,index.html,index.php
+- 23:58:45.000 INFO: CGI interpreter: C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 23:58:45.000 INFO: CGI pattern: **.php$
+- 23:58:45.000 INFO: Hide files patterns: 
+- 23:58:45.000 INFO: CGI environment variables set: TMP=C:\Users\38766\AppData\Local\Temp\,TEMP=C:\Users\38766\AppData\Local\Temp\,TMPDIR=C:\Users\38766\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 23:58:45.000 INFO: Web server url: http://127.0.0.1:50598/
+- 23:58:45.000 INFO: remote_debugging_port = 51083
+- 23:58:45.000 DEBUG: Command line string for the browser process: "C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=51083
+- 23:58:45.032 DEBUG: App::OnContextInitialized()
+- 23:58:45.032 DEBUG: Window max width/height = 2480/1352
+- 23:58:45.032 DEBUG: GetBrowserWindow(): not found, hwnd = 788842
+- 23:58:45.032 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 23:58:45.032 DEBUG: BrowserWindow::CreateBrowserControl()
+- 23:58:45.032 DEBUG: StoreBrowserWindow(): hwnd = 788842
+- 23:58:45.000 DEBUG: Command line string for the gpu-process process: "C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x2504 --gpu-driver-vendor=NVIDIA --gpu-driver-version=31.0.15.5244 --gpu-driver-date=5-7-2024 --lang=en-US --log-file="C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=E718E0A1C280E08AE67A0C8DDDF18FA7 --mojo-platform-channel-handle=1820 /prefetch:2
+- 23:58:45.079 DEBUG: ClientHandler::OnAfterCreated()
+- 23:58:45.079 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 23:58:45.094 DEBUG: OnLoadingStateChange: loading=1, url=
+- 23:58:45.000 DEBUG: Command line string for the renderer process: "C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D40E4EB9CA3C3D84419D90E8A0799772 --lang=en-US --lang=en-US --log-file="C:\Users\38766\Documents\GitHub\Kuki_TAXI--Desktop_APP\phpdesktop-chrome-57.0-rc-php-7.1.3 (1)\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D40E4EB9CA3C3D84419D90E8A0799772 --renderer-client-id=3 --mojo-platform-channel-handle=2344 /prefetch:1
+- 23:58:45.015 DEBUG: OnBrowserCreated()
+[0515/235845.624:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 23:58:46.219 INFO: GET 200 /input.css
+- 23:58:46.219 INFO: GET 200 /
+- 23:58:46.282 INFO: GET 200 /background.jpg
+- 23:58:46.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50598/
+- 23:58:50.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50598/
+- 23:58:50.969 INFO: GET 200 /rezultati.css
+- 23:58:50.969 INFO: GET 200 /rezultati_page.php
+- 23:58:50.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50598/rezultati_page.php
+- 23:58:53.985 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50598/rezultati_page.php
+- 23:58:53.047 INFO: GET 304 /input.css
+- 23:58:53.047 INFO: GET 200 /input_form.php
+- 23:58:53.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50598/input_form.php
+- 23:58:56.172 DEBUG: WM_DESTROY
+- 23:58:56.172 DEBUG: RemoveBrowserWindow(): hwnd = 788842
+- 23:58:56.172 INFO: Stopping Mongoose web server
+- 23:58:56.172 DEBUG: Mongoose webserver stopped immediately
+- 23:58:56.188 DEBUG: OnBeforeClose() hwnd=919830
+- 23:58:56.188 DEBUG: RemoveBrowserWindow(): hwnd = 919830
+- 23:58:56.188 DEBUG: GetBrowserWindow(): not found, hwnd = 919830
+- 23:58:56.188 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 23:58:56.188 DEBUG: Calling CefQuitMessageLoop()
+- 23:58:56.078 DEBUG: OnBrowserDestroyed()
+- 23:58:56.204 INFO: Ended application
+- 23:58:56.204 INFO: --------------------------------------------------------
