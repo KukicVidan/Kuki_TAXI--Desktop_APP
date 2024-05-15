@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+  padding: 0;
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  text-shadow: 0 0 1px #000000, 0 0 2px #000000;
+  color: #fff;
+  border: #000000;
+}
+details {
+  margin-bottom: 10px;
+
+  border-radius: 4px;
+
+  padding: 10px;
+  backdrop-filter: invert(20%);
+}
+details summary {
+  cursor: pointer;
+  background-color: transparent;
+}
+details summary::-webkit-details-marker {
+  display: none;
+  background-color: transparent;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+li {
+  padding: 5px 0;
+  background-color: transparent;
+}
+.total-amount {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #ddddddab;
+}
+span {
+  color: #fecd64;
+  backdrop-filter: blur(10px); /* Apply blur to the background */
+  -webkit-backdrop-filter: blur(5px); /* For Safari */
+  background-color: rgba(0, 0, 0, 0.322);
+  font-size: larger;
+}
+.nazad {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  display: grid;
+
+  color: #fdfdfd;
+  font-size: larger;
+  font-weight: 700;
+  text-decoration: none;
+}
+.nazad:hover {
+  color: #00f397;
+}
