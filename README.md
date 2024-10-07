@@ -1,7 +1,8 @@
 # Taxi aplikacija! (moja prva aplikacija ikad)
 
-Taxi aplikacija napravljena koristeci PHP (znam da to nikako nije optimalno) i SQLite. 
-Inspiraciju sam dobio nakon sto sam vidio oca kako rucno pise voznje. (aplikacija i dalje radi i svakodnevno je koristi). 
+Taxi aplikacija napravljena koristeći PHP (znam da to nikako nije optimalno) i SQLite. 
+Inspiraciju sam dobio nakon što sam vidio oca kako ručno piše vožnje. (aplikacija i dalje radi i svakodnevno je koristi). 
+Aplikacija je pravljena 10 dana nakon što sam počeo da učim PHP.
 
 # Main menu
 
